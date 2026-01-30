@@ -11,7 +11,7 @@
 
 An AI-powered system that predicts crop yields using machine learning, real-time weather data, and soil parameters. **Now serving all 38 districts across Tamil Nadu** - from farmers in small villages like Gopalapuram to major agricultural hubs across the state.
 
-**Developed by:** Vinotha S (7376242CB158)  
+**Developed by:** Vinotha S , Anushya S , Sowdeshwari S  
 **Institution:** Bannari Amman Institute of Technology  
 **Domain:** Smart Agriculture (AI/ML)  
 **Coverage:** All 38 Districts of Tamil Nadu (100+ locations)
