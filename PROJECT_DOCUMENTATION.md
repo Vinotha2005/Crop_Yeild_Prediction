@@ -5,8 +5,7 @@
 
 ## 📋 Project Overview
 
-**Student:** Vinotha S  
-**Registration:** 7376242CB158  
+**Students:** Vinotha S , Anushya S, Sowdeshwari S  
 **Department:** Computer Science and Business Systems (CSBS)  
 **Institution:** Bannari Amman Institute of Technology  
 **Domain:** Artificial Intelligence / Machine Learning  
