@@ -1,16 +1,16 @@
-🌾 AI-Based Crop Yield Prediction System
+## 🌾 AI-Based Crop Yield Prediction System
 Using Real-Time Weather Data and Machine Learning
 Python ML License
 
-🎯 Overview
+### 🎯 Overview
 An AI-powered system that predicts crop yields using machine learning, real-time weather data, and soil parameters. Now serving all 38 districts across Tamil Nadu - from farmers in small villages like Gopalapuram to major agricultural hubs across the state.
 
-Developed by: Vinotha S , Anushya S , Sowdeshwari S
-Institution: Bannari Amman Institute of Technology
-Domain: Smart Agriculture (AI/ML)
-Coverage: All 38 Districts of Tamil Nadu (100+ locations)
+#### Developed by: Vinotha S , Anushya S , Sowdeshwari S
+#### Institution: Bannari Amman Institute of Technology
+#### Domain: Smart Agriculture (AI/ML)
+#### Coverage: All 38 Districts of Tamil Nadu (100+ locations)
 
-✨ Key Features
+### ✨ Key Features
 🤖 Machine Learning Predictions - Random Forest algorithm with 9 input features
 🌤️ Real-Time Weather Integration - Live data from Open-Meteo API
 🗺️ Complete Tamil Nadu Coverage - All 38 districts, 100+ locations
@@ -19,7 +19,7 @@ Coverage: All 38 Districts of Tamil Nadu (100+ locations)
 📊 Multi-Crop Comparison - Compare 9 different crops side-by-side
 📱 Mobile-Friendly - Responsive web interface works on any device
 🌍 Region-Specific - Customized for each agricultural zone of TN
-🚀 Quick Start
+## 🚀 Quick Start
 1. Install Dependencies
 pip install -r requirements.txt
 2. Run the System
@@ -28,19 +28,19 @@ Python Console:
 python3 crop_yield_prediction.py
 Web Dashboard:
 
-# Just open yield_prediction_dashboard.html in your browser!
+### Just open yield_prediction_dashboard.html in your browser!
 3. Make a Prediction
 from crop_yield_prediction import CropYieldPredictor, RealTimeWeatherAPI
 
-# Initialize and train
+#### Initialize and train
 predictor = CropYieldPredictor()
 predictor.train_model()
 
-# Get weather
+### Get weather
 weather_api = RealTimeWeatherAPI()
 weather = weather_api.get_weather_data(11.75, 78.10)
 
-# Predict
+#### Predict
 result = predictor.predict_yield(
     soil_params={'N': 75, 'P': 65, 'K': 85, 'pH': 6.8},
     weather_params=weather,
@@ -66,12 +66,12 @@ Southern	10	Cotton, Groundnut, Chilli
 Eastern (Coastal)	4	Rice, Coconut, Cashew
 Special Zones:
 
-🏔️ Hill Stations: Ooty, Kodaikanal, Yercaud (Tea, Coffee)
-🌊 Coastal Belt: Nagapattinam, Rameswaram, Kanyakumari
-🌾 Delta Region: Thanjavur, Thiruvarur (Rice Bowl of TN)
-📋 Complete Location Database: See TAMIL_NADU_COVERAGE.md for detailed district-wise information, coordinates, and crop recommendations.
+##### 🏔️ Hill Stations: Ooty, Kodaikanal, Yercaud (Tea, Coffee)
+##### 🌊 Coastal Belt: Nagapattinam, Rameswaram, Kanyakumari
+##### 🌾 Delta Region: Thanjavur, Thiruvarur (Rice Bowl of TN)
+##### 📋 Complete Location Database: See TAMIL_NADU_COVERAGE.md for detailed district-wise information, coordinates, and crop recommendations.
 
-📁 Project Files
+### 📁 Project Files
 File	Description
 crop_yield_prediction.py	Main ML system with prediction engine
 yield_prediction_dashboard.html	Interactive web interface
@@ -81,7 +81,7 @@ QUICK_START.md	5-minute setup guide
 PROJECT_SUMMARY.md	Presentation-ready summary
 requirements.txt	Python dependencies
 yield_predictions.csv	Sample output data
-🌱 Supported Crops
+### 🌱 Supported Crops
 Rice (धान) - 2,500 kg/ha average
 Wheat (गेहूं) - 2,200 kg/ha average
 Cotton (कपास) - 2,500 kg/ha average
@@ -91,9 +91,9 @@ Maize (मक्का) - 6,000 kg/ha average
 Pulses (दाल) - 2,000 kg/ha average
 Vegetables (सब्जियां) - 25,000 kg/ha average
 Flowers (फूल) - 15,000 kg/ha average
-📊 How It Works
+### 📊 How It Works
 Input Parameters
-Soil Data:
+#### Soil Data:
 
 Nitrogen (N): 0-140 kg/ha
 Phosphorus (P): 5-145 kg/ha
@@ -101,18 +101,18 @@ Potassium (K): 5-205 kg/ha
 pH: 4.5-9.0
 Weather Data (Real-Time):
 
-Temperature: Auto-fetched from API
+##### Temperature: Auto-fetched from API
 Rainfall: 7-day forecast
 Humidity: Current conditions
 Farm Details:
 
-Crop type
+##### Crop type
 Cultivated area (hectares)
 Location
 Output
 Yield Prediction:
 
-Kg per hectare
+#### Kg per hectare
 Total yield in tonnes
 Confidence interval (±10%)
 Economic Analysis:
@@ -141,7 +141,7 @@ Computer Science students
 Agricultural technology researchers
 Social impact projects
 Innovation competitions
-🌍 Social Impact
+### 🌍 Social Impact
 Problem Addressed
 Farmers in rural Tamil Nadu select crops based on experience rather than scientific data, leading to poor yields and financial losses.
 
@@ -156,7 +156,8 @@ Farmers Reached (Target): 100+ in Year 1
 SDG Alignment
 SDG 2: Zero Hunger (increased food production)
 SDG 12: Responsible Consumption (optimized resource use)
-🔬 Technical Details
+
+### 🔬 Technical Details
 Machine Learning Model
 Algorithm: Random Forest Regressor
 Features: 9 (soil + weather + area + crop)
@@ -173,7 +174,7 @@ ML: Scikit-learn 1.0+
 Data: Pandas, NumPy
 HTTP: Requests
 Frontend: Vanilla HTML/CSS/JS
-📱 Web Dashboard Features
+#### 📱 Web Dashboard Features
 User Interface
 Clean, modern design
 Gradient backgrounds
@@ -188,14 +189,14 @@ Comparison Tool: Multi-crop analysis
 Results Export: CSV download
 🔧 Customization
 Add New Crop
-# In crop_yield_prediction.py
+#### In crop_yield_prediction.py
 self.crop_encodings['mustard'] = 10
 self.crop_market_prices['mustard'] = 4500
 Add New Location
-# In RealTimeWeatherAPI
+#### In RealTimeWeatherAPI
 locations['erode'] = (11.3410, 77.7172)
 Adjust Costs
-# In YieldAnalyzer
+#####  In YieldAnalyzer
 estimated_cost = area * 30000  # Change multiplier
 📈 Sample Results
 Groundnut (2.5 hectares)
@@ -213,7 +214,7 @@ Crop	Yield	Revenue	Profit	Margin
 Cotton	6.28 t	₹376K	₹314K	83.4%
 Groundnut	6.03 t	₹332K	₹269K	81.2%
 Sugarcane	6.14 t	₹196K	₹134K	68.2%
-🎯 Use Cases
+### 🎯 Use Cases
 1. Crop Selection
 "Which crop should I plant this season?"
 
@@ -238,7 +239,7 @@ Calculate ROI
 Revenue calculation
 Cost estimation
 Profit forecasting
-🏆 Field Study Validation
+### 🏆 Field Study Validation
 Survey Details
 Location: Gopalapuram, Salem District
 Farmers: 6 (ages 45-65)
@@ -250,7 +251,7 @@ Key Findings
 ✅ High financial loss from wrong crops
 ✅ No current soil testing
 ✅ Weather data very important
-🚀 Future Roadmap
+#### 🚀 Future Roadmap
 Phase 2 (June 2026)
  Collect real farmer yield data
  Retrain model with actual data
@@ -263,7 +264,7 @@ Phase 3 (2027)
  Market price integration
  Government scheme linking
  Scale to 1,000+ farmers
-📞 Support
+#### 📞 Support
 For Students/Developers
 Email: vinothas.cb24@bitsathy.ac.in
 Documentation: See PROJECT_DOCUMENTATION.md
@@ -274,7 +275,7 @@ Contact: Agricultural Office, Salem
 Website: tn.gov.in
 Quick Guide: See QUICK_START.md
 
-📄 License
+### 📄 License
 This project is developed for educational purposes as part of the Social Relevant Project initiative at Bannari Amman Institute of Technology.
 
 Free to use for:
@@ -283,7 +284,7 @@ Free to use for:
 ✅ Research projects
 ✅ Social impact initiatives
 ✅ Non-commercial farming support
-🙏 Acknowledgments
+### 🙏 Acknowledgments
 Field Research
 6 farmers from Gopalapuram village
 Agricultural Department, Salem
@@ -295,7 +296,7 @@ Open-Meteo API
 Inspiration
 Small and marginal farmers of Tamil Nadu who face challenges in crop selection and yield optimization.
 
-📚 Citations
+#### 📚 Citations
 Research
 Indian Council of Agricultural Research (ICAR)
 Tamil Nadu Agricultural Department
